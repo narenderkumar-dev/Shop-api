@@ -45,7 +45,7 @@ const ProductTable = () => {
               </TableRow>
             </TableHead>
             <TableBody>
-              {products?.product?.content?.map((item) => (
+              {products?.products?.content?.map((item) => (
                 <TableRow
                   key={item.name}
                   sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
